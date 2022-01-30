@@ -9,7 +9,7 @@ Added the ability to query the database to check if the user is authorized to us
 In your terminal/shell run
 
 ```
-php artisan vendor:publish --provider="RodrigoPedra\LDAP\LDAPServiceProvider"
+php artisan vendor:publish --provider="rjmangini\LDAP\LDAPServiceProvider"
 ```
 
 Then change this values in your files:
@@ -20,7 +20,7 @@ Then change this values in your files:
 'providers' => [
     /* ... */
     
-    'RodrigoPedra\LDAP\LDAPServiceProvider',
+    'rjmangini\LDAP\LDAPServiceProvider',
 ]
 ```
 

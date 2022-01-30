@@ -1,6 +1,6 @@
 <?php
 
-namespace RodrigoPedra\LDAP;
+namespace rjmangini\LDAP;
 
 use Illuminate\Support\ServiceProvider;
 

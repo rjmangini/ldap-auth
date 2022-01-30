@@ -1,6 +1,6 @@
 <?php
 
-namespace RodrigoPedra\LDAP;
+namespace rjmangini\LDAP;
 
 use Illuminate\Contracts\Auth\UserProvider;
 use Illuminate\Contracts\Auth\Authenticatable as UserContract;
@@ -12,7 +12,7 @@ use Illuminate\Contracts\Auth\Authenticatable as UserContract;
  *
  * @see     https://gist.github.com/rezen/ee5451eabea6e581256a
  *
- * @package RodrigoPedra\LDAP
+ * @package rjmangini\LDAP
  */
 class LDAPUserProvider implements UserProvider
 {
