@@ -1,0 +1,22 @@
+{
+  "name": "rjmangini/ldap-auth",
+  "description": "Laravel 5 auth provider for LDAP and AD",
+  "keywords": ["ldap", "ad", "auth", "laravel"],
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Rodrigo Mangini",
+      "email": "rjmangini@gmail.com"
+    }
+  ],
+  "require": {
+    "illuminate/contracts": "~5.2",
+    "illuminate/database": "~5.2",
+    "illuminate/support": "~5.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "rjmangini\\": "src/"
+    }
+  }
+}
